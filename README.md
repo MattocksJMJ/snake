@@ -13,7 +13,7 @@ randBlue = Math.floor((Math.random()*100)+1);
 randGreen = Math.floor((Math.random()*100)+100)+Math.floor((Math.random()*100/2));
 ```
 
-- Using local storage of the browser a highscore will be saved.
+- Using the local storage of the browser a highscore will be saved.
 
 ```Javascript
 // Get the topHighScore from local storage and store it as topHighScore
@@ -37,7 +37,7 @@ else if (score == topHighScore) {
 }
 ```
 
-- Can use either wasd or the arrow keys to control the snake.
+- Usage of either wasd or the arrow keys to control the snake.
 
 ```Javascript
 function keyPressed() {
