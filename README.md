@@ -37,7 +37,7 @@ else if (score == topHighScore) {
 }
 ```
 
-- Can use either wasd or the arrow keys
+- Can use either wasd or the arrow keys to control the snake.
 
 ```Javascript
 function keyPressed() {
