@@ -62,7 +62,7 @@ function displayHighScore(score) {
       document.getElementById('score').value = "Score: "+ score;
       localStorage.setItem("topHighScore", Number(score));
   }
-  else if (score = topHighScore) {
+  else if (score == topHighScore) {
     document.getElementById('highScore').value = "High Score: "+ score;
     document.getElementById('score').value = "Score: "+ score;
   }
