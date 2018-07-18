@@ -3,9 +3,9 @@
 A clone of the classic game snake written in p5.js.
 I have added a couple rudimentary features such as:
 
-##Features
+## Features
 
--When food is eaten the new tail will be a randomised shade of green.
+- When food is eaten the new tail will be a randomised shade of green.
 
 ```Javascript
 randRed = Math.floor((Math.random()*100)+1);
@@ -13,7 +13,7 @@ randBlue = Math.floor((Math.random()*100)+1);
 randGreen = Math.floor((Math.random()*100)+100)+Math.floor((Math.random()*100/2));
 ```
 
--Using local storage of the browser a highscore will be saved.
+- Using local storage of the browser a highscore will be saved.
 
 ```Javascript
 // Get the topHighScore from local storage and store it as topHighScore
@@ -37,7 +37,7 @@ else if (score == topHighScore) {
 }
 ```
 
--Can use either wasd or the arrow keys
+- Can use either wasd or the arrow keys
 
 ```Javascript
 function keyPressed() {
